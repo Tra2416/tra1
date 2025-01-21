@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Password Management</title>
+    <link type="text/css" rel="stylesheet" href="style (6).css">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <h1>Password Management</h1>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="webside">Webside</label>
+                        <input type="text" name="webside" id="webside">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="username">Username</label>
+                        <input type="text" name="username" id="username">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="text" name="password" id="password">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Website</th>
+                                <th>Email</th>
+                                <th>Username</th>
+                                <th>Password</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script (5).js"></script>
+</body>
+</html>
